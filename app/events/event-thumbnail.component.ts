@@ -20,7 +20,7 @@ import { Component, Input, Output,  EventEmitter } from '@angular/core'
     `]
 
 })
-export class EventThumbnail {
+export class EventThumbnailComponent {
     @Input() event: any
     @Output() eventClick = new EventEmitter();
 }
