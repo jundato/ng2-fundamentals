@@ -9,7 +9,7 @@ export class EventService{
         subject.next(EVENTS); 
         subject.complete(); 
 
-      }, 100)
+      }, 2000)
       
       return subject;
     }
