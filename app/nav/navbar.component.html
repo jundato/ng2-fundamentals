@@ -8,7 +8,8 @@
         <ul class="nav navbar-nav">
           <li>
             <a [routerLink]="['/events/']"
-              routerLinkActive="active" >All Events</a>
+              routerLinkActive="active"
+              [routerLinkActiveOptions]="{exact:true}" >All Events</a>
           </li>
           <li><a [routerLink]="['/events/new']"
               routerLinkActive="active">Create Event</a></li>
